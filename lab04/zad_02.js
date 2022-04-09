@@ -1,11 +1,11 @@
 //let stringus = "lampa ma kota";
 (function (stringus) {
-    const arr = [... stringus];
+    const arr = [... stringus, " "]; // spacja jest po to żeby warunek działał że jak trafi na spacje to porównuje najwieksze slowo (CHEAT)
     let maxstring = ""
     let actualstring = ""
-    // console.log(arr)
+    console.log("arr:",arr)
     arr.forEach(k => {
-    console.log(k, maxstring, actualstring)
+    // console.log(k, maxstring, actualstring)
     if (k !== ' ') {
         actualstring+=k
     } else {
@@ -19,4 +19,4 @@
     console.log(maxstring)
     return maxstring;       
     
- })("Lampa ma ktosas"); // PROBLEM POLEGA NA TYM ZE NIE UWZGLEDNIA LAST LITERKI 
+ })("Lampa ma ktasdsffasfaasf"); 
