@@ -13,7 +13,7 @@ function runFunc() {
     console.log("edycja");
 }
 function runFunc2() {
-    console.log("hepeni1111");
+    console.log("hepeni1111111");
 }
 
 
@@ -25,5 +25,5 @@ const links = games.reduce(function(akumulator, object) {
     
   },[]);
 
-  console.log(links);
+//   console.log(links);
 
