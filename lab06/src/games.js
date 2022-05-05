@@ -1,4 +1,4 @@
-﻿exports.games = [
+exports.games = [
     {
         title: 'Grand Theft Auto V',
         year: 2013,
@@ -41,12 +41,3 @@
     }
 ]
 
-const links = this.games.reduce(function(akumulator, object) {
-    if  (object.imageUrl !== '' && akumulator.length <4) {
-        akumulator.push(object.imageUrl);
-    }
-    return akumulator;
-    
-  },[]);
-
-  console.log(links);
