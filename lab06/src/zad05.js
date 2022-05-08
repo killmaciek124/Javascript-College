@@ -75,21 +75,30 @@ const buyList = require('./listaZakupow.js').listaZakupow;
 
 
 //zad6 
- // skoncz bo DZIWNE ! 
-
-// const foo = buyList.reduce(function(akumulator,object) {
-//     nameCapitalized = object.typ.charAt(0).toUpperCase() + object.typ.slice(1)
-//     akumulator+= ""+nameCapitalized+":\n"
-//     for (let i = 0; i<buyList.length)
-//     return akumulator
-// },"");
-
-// console.log(foo);
 
 
+//cANT DO
 //zad7 
 
-// TEŻ DOKOŃCZ !!!!
+const highestPrice = buyList.reduce(function(akumulator,object) {
+    if (object.cena>akumulator) {
+        return object.cena
+    }
+    return akumulator
+      
+},buyList[0].cena);
 
+console.log(highestPrice)
+
+const cheapProducts = buyList.reduce(function(akumulator,object) {
+    const finalPrice = object.cena*object.ilosc
+    if (finalPrice < highestPrice) { 
+        var newobject = {}
+        newobject["cena"] = object.cena*object.ilosc
+        akumulator[object.produkt] = newobject
+    }
+    return akumulator
+},[]);
+console.log(cheapProducts)
 
 
