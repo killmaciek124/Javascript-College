@@ -1,6 +1,5 @@
 const { lp3 } = require('./toplist');
 const lodash = require('lodash');
-console.log("DZIALA");
 //ZACZNIJ ROBIC TUTAJ ZADANIA WSZYSTKO DZIALA
 
 
@@ -32,7 +31,80 @@ console.log("DZIALA");
 
 // console.log(result);
 
+// REMINDER: _.map(users, 'id'); // [12, 14, 16, 18] zwraca nam liste w ktorej są wartości w kazdym ID 
 //zad04
 
-let foo = {lodash.first(lp3)}
-console.log(foo)
+// let foo = lodash.pickBy(lp3[0], lodash.isString);
+// console.log(foo)
+
+//zad05
+
+// function isNumber(list) {
+    
+//     for (i = 0; i<list.length; i++) {
+//         if (lodash.isNumber(list[i]) === false) {
+//             return false
+//         }
+// }
+// }   
+
+// list=[1,2];
+// isNumber(list);
+// lodash.forEach(list, function(value) {
+//     console.log(lp3[value])
+//   });
+
+//zad06
+
+// function randomSong(n,min,max) {
+//     songIndex = lodash.random(min,max);
+//     while (n>0) {
+//         console.log(lp3[songIndex]);
+//         n-=1
+//     }
+// }
+
+// randomSong(3,0,3);
+
+//zad07
+                        
+// let func = number => {
+//     console.log(number);
+//   };
+    
+//   // Defining for loop
+//   for(let i = 0; i <= 10; i++) {
+        
+//       // Using the _.delay() method
+//       // with its parameter
+//       lodash.delay(func, 2000 * (i+1), lp3[i]);
+//   }
+    
+//   // Prints the integer after this line
+//   console.log('Songs are as follows:');
+    
+//zad08
+
+// result = lodash.filter(lp3, function(o) { return o.change<0; });
+// console.log(result)
+
+//zad09
+// newDict ={} 
+// lodash.forEach(lp3, function(object) {
+//     newDict[object.song] = object
+//   });
+// console.log(newDict);
+
+//zad10
+
+// bandSongs = {}
+// lodash.forEach(lp3, function(object) {
+//     bandSongs[object.author] = [object
+//   });
+
+//zad11
+
+
+
+
+
