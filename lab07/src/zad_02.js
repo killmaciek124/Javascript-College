@@ -95,7 +95,7 @@ const lodash = require('lodash');
 //   });
 // console.log(newDict);
 
-//zad10
+//zad10 USE GROUPBY ! 
 
 // bandSongs = {}
 // lodash.forEach(lp3, function(object) {
