@@ -1,4 +1,4 @@
-exports.games = [
+﻿exports.games = [
     {
         title: 'Grand Theft Auto V',
         year: 2013,

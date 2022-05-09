@@ -1,0 +1,24 @@
+{
+  "name": "lab07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitlab.com/jezyki-programowania-2/21-22/grupa-1/maziuk-maciej.git",
+  "author": "killmaciek124 <maciej@maziuk.com.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "zad2": "nodemon src/zad_02.js",
+    "babel": "babel src -d es5out"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
