@@ -17,7 +17,7 @@
     "start": "nodemon src/index.js",
     "babel": "babel src -d es5out",
     "zad1": "nodemon src/objects.js",
-    "zad2": "nodemon src/creatingObjects.j0",
+    "zad2": "nodemon src/creatingObjects.js",
     "zad3": "nodemon src/reduce.js"
   }
 }
