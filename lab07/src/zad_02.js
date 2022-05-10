@@ -97,14 +97,18 @@ const lodash = require('lodash');
 
 //zad10 USE GROUPBY ! 
 
-// bandSongs = {}
-// lodash.forEach(lp3, function(object) {
-//     bandSongs[object.author] = [object
-//   });
-
+// let result = lodash.groupBy(lp3,"author")
+// console.log(result)
 //zad11
 
+// result = lodash.countBy(lp3, function(song) {
+//     return song.author
+//     });
+// console.log(result)
 
+//zad12
 
-
-
+// changes = lodash.map(lp3, 'change');
+// max = lodash.max(changes);
+// min = lodash.min(changes);
+// console.log(changes, min, max)
