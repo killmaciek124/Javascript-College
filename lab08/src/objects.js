@@ -118,3 +118,32 @@ const {
 // console.log(DrisRole); // Oczekiwany output -> Omar Sy
 
 // Zmodyfikuj teraz swój kod, aby zawierał domyślne wartości, jeśli którakolwiek z własności filmu nie została podana.
+
+// DOMYSLNE WARTOSCI DLA OBIEKTOW : !!!!! 
+
+var emptyObj = {};
+const { nonExistingAttribute = defaultValue } = emptyObj;
+console.log(nonExistingAttribute); // defaultValue
+
+const { nonExistingAttribute: coolerName = 15} = emptyObj;
+console.log(coolerName); // 15
+
+var nestedData = {
+  name: 'Awesome Programmer',
+  languages: [
+      {
+          name: 'javascript',
+          proficiency: 4,
+      }
+  ],
+  country: 'Canada',
+};
+
+var {name: realName, languages: [{name: languageName}]} = nestedData ;
+
+console.log(realName); // Awesome Programmer
+console.log(languageName); // javascript
+
+
+
+

@@ -24,7 +24,7 @@ const book2 = Object.create(book1);
 book2.title = "book2title"
 book2.author = "book2author"
 
-//book2.print();
+// book2.print();
 
 function BookCreator(title, author) {
   const b = {}
@@ -44,7 +44,7 @@ book3.print();
 book4.print();
 // zad 1 DONE ! 
 // // ========================================
-// // ZADANIE 2
+// // ZADANIE 2 TU ZACZNIJ !!! 
 // // ========================================
 
 // // Przetestuj poniższy kod i odpowiedz na pytania
