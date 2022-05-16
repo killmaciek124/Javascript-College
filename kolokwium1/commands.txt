@@ -1,0 +1,12 @@
+tutaj wpisz wszystkie JS komendy!
+
+NODEMON :
+
+yarn add --dev nodemon
+npx nodemon src/index.js  // albo dodaj do jsona po prostu : 
+
+"scripts": {
+    "start": "nodemon src/index.js"
+}
+
+=========================================================
