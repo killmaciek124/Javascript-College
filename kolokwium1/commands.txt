@@ -10,3 +10,56 @@ npx nodemon src/index.js  // albo dodaj do jsona po prostu :
 }
 
 =========================================================
+
+YARN : 
+yarn -v 
+// w folderrze : 
+yarn init
+
+====================================================
+
+ESLint: 
+// w folderrze :
+yarn add eslint --dev 
+yarn run eslint --init
+
+How would you like to use ESLint? · problems
+What type of modules does your project use? · commonjs
+Which framework does your project use? · none
+Does your project use TypeScript? · No
+Where does your code run? · browser
+What format do you want your config file to be in? · JSON
+
+albo edytuj plik = eslintrc.json
+
+===============================================
+
+BABEL: 
+
+1. najpierw yarn init!!!!
+yarn add --dev @babel/core @babel/cli @babel/preset-env @babel/node
+2 .  tworzymy plik .babelrc a w nim : 
+{
+  "presets": ["@babel/preset-env"]
+}
+3. JSON : (dodaj)
+"scripts": {
+  "start": "nodemon src/index.js",
+  "babel": "babel src -d es5out"
+}
+
+===============================================
+GITIGNORE : !!!!!! (.gitignore)
+
+.idea/ # Jeśli korzystasz z IntelliJ
+node_modules/
+es5out/
+log/
+.yarn/
+
+=======================================
+LODASH : 
+yarn add lodash
+
+const lodash = require('lodash');
+
