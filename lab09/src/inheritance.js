@@ -168,7 +168,7 @@ Animal.prototype.printName = function() {
 }
 
 function Mammal(name, age) {
-    Animal.call(this, name);
+    Animal.call(this, name); //dziedziczy zmienne jakby!
     this.age = age;
 }
 

@@ -70,11 +70,11 @@ console.log(!!undefined);
 // Czym się różnią poniższe dwa fragmenty kodu?
 // Jak działa operator '...'? ODP : wyciąga nam wartosci z tablicy (znikaja nawiasy tablicy)
 
-// const arr = [1, 2];
-// const newArr1 = [arr, 3, 4];
-// console.log(newArr1);
-// const newArr2 = [...arr, 3, 4];
-// console.log(newArr2);
+const arr = [1, 2];
+const newArr1 = [arr, 3, 4];
+console.log(newArr1);
+const newArr2 = [...arr, 3, 4];
+console.log("xd",arr);
 
 // Co zostanie wyświetlone na ekranie?
 // Wyjaśnij wynik w jednej tablicy beda elementy z jedna tablica 
