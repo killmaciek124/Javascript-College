@@ -7,7 +7,8 @@
     "start": "nodemon src/index.js",
     "zad1": "nodemon src/zadanie1.js",
     "zad2": "nodemon src/zadanie2.js",
-    "zad3": "nodemon src/zadanie3.js"
+    "zad3": "nodemon src/zadanie3.js",
+    "methods": "nodemon src/8METHODS.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
