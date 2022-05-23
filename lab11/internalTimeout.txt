@@ -1,0 +1,6 @@
+setTimeout wywołuje funkcję po określonym czasie opóźnienia. setTimeout(function, timeout); 
+setTimeout(sayHello, 1000, "This works", "reader"); // This works reader
+
+setInterval wywołuje funkcję w określonych, regularnych interwałach.  
+
+POCZYTAJ O API !!!

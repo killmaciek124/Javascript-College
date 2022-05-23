@@ -1,5 +1,6 @@
 const { lp3 } = require('./toplist');
 const lodash = require('lodash');
+console.log("DZIALA");
 //ZACZNIJ ROBIC TUTAJ ZADANIA WSZYSTKO DZIALA
 
 
@@ -31,6 +32,7 @@ const lodash = require('lodash');
 
 // console.log(result);
 
+// REMINDER: _.map(users, 'id'); // [12, 14, 16, 18] zwraca nam liste w ktorej są wartości w kazdym ID 
 //zad04
 
 // let foo = lodash.pickBy(lp3[0], lodash.isString);

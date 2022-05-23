@@ -1,0 +1,16 @@
+{
+  "name": "kolos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "zad1": "nodemon src/zadanie1.js",
+    "zad2": "nodemon src/zadanie2.js",
+    "zad3": "nodemon src/zadanie3.js",
+    "zad4": "nodemon src/zadanie4.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
