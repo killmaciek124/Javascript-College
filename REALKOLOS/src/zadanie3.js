@@ -1,9 +1,12 @@
-function getCounter(min,max) {
-    return increment(min,max)
+function foo(min,max){
+    let count = min
+    // console.log(count)
+    return () => count<max+1 ? count++ : undefined
 }
-
-function increment(min,max) {
-    if (min<max) {
-        return min++
-    }
-}
+//dlaczego dziala i jak dziala
+const a = foo(1,3)
+console.log(a())
+console.log(a())
+console.log(a())
+console.log(a())
+console.log(a())
