@@ -1,0 +1,24 @@
+{
+  "name": "recap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "zad4EL": "nodemon src/zad4EL.js",
+    "zadAxios1": "nodemon src/zadAxios1.js",
+    "promises": "nodemon src/promises.js",
+    "zad1lab13": "nodemon src/zad1lab13.js",
+    "zad2lab13": "nodemon src/zad2lab13.js",
+    "zad3lab13": "nodemon src/zad3lab13.js",
+    "zad1lab14": "nodemon src/zad1lab14.js",
+    "zad2lab14": "nodemon src/zad2lab14.js",
+    "zad3lab14": "nodemon src/zad3lab14.js"
+
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

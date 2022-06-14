@@ -7,7 +7,7 @@ const func1 = () => {
   }
   
 const func2 = async () => {
-return 2
+    return 2
 }
 
 const func4 = async () => {
@@ -26,14 +26,13 @@ const func3 = (x) => {
 const funTab1 = [func1(),func2(),func4()];
 
 
-const connect = (funTab, fun) => {
-    const res =[]
+const connect = (funTab, fun) => { // zapytaj na konsultacjach jak zwrocic z promisa
     return Promise.all(funTab)
     .then(x=> {
         // console.log(x)
             const y =x.map(y=>  fun(y))
             return Promise.all([x,Promise.all(y)]).then(x=> {
-                // const res =[]
+                const res =[]
                 for (i=0; i<x[0].length;i++) {
                     res.push([x[0][i], x[1][i]])
                 }
