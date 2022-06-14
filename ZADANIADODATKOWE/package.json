@@ -1,5 +1,5 @@
 {
-  "name": "lab13",
+  "name": "zaddodatkowe",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,12 +7,9 @@
     "nodemon": "^2.0.16"
   },
   "scripts": {
-    "example": "nodemon src/example.js",
     "zad1": "nodemon src/zad1.js",
     "zad2": "nodemon src/zad2.js",
     "zad3": "nodemon src/zad3.js"
-  },
-  "dependencies": {
-    "axios": "^0.27.2"
-  }
+
+}
 }

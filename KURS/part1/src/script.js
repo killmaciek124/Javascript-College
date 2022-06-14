@@ -17,3 +17,6 @@ calculateSquare('bad argument', function (error, result) {
     }
     console.log(result);
 });
+
+
+// CIE
