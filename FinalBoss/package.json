@@ -1,0 +1,19 @@
+{
+  "name": "finalboss",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "zad1": "nodemon src/zad1.js",
+    "zad2": "nodemon src/zad2.js",
+    "zad3": "nodemon src/zad3.js",
+    "zad4": "nodemon src/zad4.js"
+}
+}
