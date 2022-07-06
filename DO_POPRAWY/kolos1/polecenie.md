@@ -147,6 +147,7 @@ const object2 = {
 // Output
 detectChanges(object1, object2);
 // -> [ [ 'value', { field: 'new value' } ] ]
+
 ```
 
 **Zadanie 3.**
